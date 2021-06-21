@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+.navbar .navbar-brand{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.navbar .navbar-nav .nav-link{
+    font-size:1.1rem;
+    font-weight:bold;
+    padding:0 20px;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu{
+  border-radius:0px!important;
+  width: 100%!important;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+    font-size:1.5rem;
+    font-weight:400;
+    padding:0 20px;
+    letter-spacing: 2px;
+}
+
+
+.jumbotron{
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9)), url('../images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    border-radius: 0!important;
+}
+.jumbotron h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.jumbotron p{
+    font-size:3rem;
+    margin-top:3rem;
+    
+}
+.jumbotron .btn{
+    
+    font-size:1.9rem;
+    font-weight: 600;
+}
+
+.contact p{
+    font-size:1.5rem;
+    font-weight: bold;
+    margin-top:15px;
+}
+#churchSlide{
+   margin-top:5rem;
+   margin-bottom:5rem;
+}
+.carousel-inner .carousel-item img{
+    width:100%;
+    height: 100%;
+}
+
+.carousel-inner .carousel-item .carousel-caption p{
+  font-weight: bold;
+  font-size:2rem;
+  padding-left: 10px;
+}
+
+.footer p{
+    font-size:2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+    top:0;
+    bottom:1;
+}
